@@ -8,10 +8,133 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
-        <title>KCF-Online Shopping.</title>
+        <title>KCF-Online Shopping</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/products.css">
     </head>
     <body>
-        
+        <header class="header">
+            <a href="#" class="logo">KCF-Online</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <!-- <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-skills">My Skills</a></li> -->
+                <li><a href="#">Categoriess</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </header>
+
+        <div class="main-body">
+            <div class="product-area">
+
+                <!-- Start of featured product. -->
+                <div class="featured">
+                    <div class="heading">Featured Products.</div>
+                    <div class="featured-product">
+                        <div class="product">
+                            <img class="featured-image" src="assets/images/products/featured.jpg" height="300px">
+                        </div>
+                        <div class="product-details">
+                            <div class="product-name">Hp Probook 455 G7</div>
+                            <div class="product-specs">
+                                <ul class="specs">
+                                    <li>8GB RAM</li>
+                                    <li>1TB ROM</li>
+                                    <li>Ryzen 5 prcessor</li>
+                                </ul>
+                            </div>
+                            <div class="product-price">
+                                <div class="old-price">
+                                    Get it at: <span>Ugx. 3,000,000/=</span>
+                                </div>
+                                <div class="new-price">
+                                    Ugx. 2,500,000/=
+                                </div>
+                            </div>
+                            <div class="add-to-cart-btn">
+                                <!-- <i class="fa fa-cart-plus fa-xl" aria-hidden="true"></i> -->Add to Cart
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of featured product. -->
+
+                <!-- Start of other products. -->
+                <section class="daily-products">
+                    <div class="heading">Other Products.</div>
+                    <div class="category">
+                        <div class="cat-heading">Mobile Phones.</div>
+                            <div class="productinfo">
+                                <div class="row">
+
+                                </div>
+                                <div class="productitem">
+                                    <div class="image">
+                                        <img src="./images/products/blog.jpg" alt="Product image.">
+                                        <div class="fade"></div>
+                                    </div>
+                                    <hr/>
+                                    <p class="producttitle">
+                                        Product details.
+                                    </p>
+                                    <button class="product-button"><a target="_blank" href="https://mukozaduncan.hashnode.dev/what-led-me-to-the-field-of-software">Add to Cart</a></button>
+                                </div>
+                                <div class="productitem">
+                                    <div class="image">
+                                        <img src="./images/products/survey.png" alt="Product image.">
+                                        <div class="fade"></div>
+                                    </div>
+                                    <hr/>
+                                    <p class="producttitle">
+                                        Product details.
+                                    </p>
+                                    <button class="product-button"><a target="_blank" href="https://cocky-morse-482ca8.netlify.app/">Add to Cart</a></button>
+                                </div>
+                                <div class="productitem">
+                                    <div class="image">
+                                        <img src="./images/products/portfolio.jpg" alt="Product image.">
+                                        <div class="fade"></div>
+                                    </div>
+                                    <hr/>
+                                    <p class="producttitle">
+                                        Product details.
+                                    </p>
+                                    <button class="product-button"><a target="_blank" href="https://flamboyant-swirles-27980b.netlify.app/">Add to Cart</a></button>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+                <!-- End of other products. -->
+
+            </div>
+
+            <!-- Start of shopping cart. -->
+            <div class="shopping-cart">
+                <div class="small-title">Shopping Cart.</div>
+                <div class="shopping-list">
+                    <p>Item</p>
+                    <p>Rate</p>
+                    <p>Qty</p>
+                    <p>Total</p>
+                </div>
+            </div>
+            <!-- End of shopping cart. -->
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <!--add all information -->
+                <h3>KCF-Online</h3>
+                <p>Contact us on;</p>
+                <div class="contactlinks">
+                    <a target="_blank" href="#"><i class="footercontacts fa-brands fa-facebook fa-xl"></i></a>
+                    <a target="_blank" href="#"><i class="footercontacts fa-brands fa-instagram fa-xl"></i></a>
+                    <a target="_blank" href="#"><i class="footercontacts fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a target="_blank" href="#"><i class="footercontacts fa-brands fa-twitter fa-xl"></i></a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
