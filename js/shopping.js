@@ -1,56 +1,30 @@
 let Products = [{
-  keyvalue: "pc1",
-  catname: 'Laptop Computers',
-  contents: [
-    {
-      id: 'pc1-1',
-      name: 'Hp Probook 455 G7',
-      image: './assets/images/products/featured.png',
-      price: 2500000,
-      details: 'Edmund speaks at the Careers Catalog Conference 2019 at Isbat University.'
-    },
-    {
-      id: 'pc1-2',
-      name: 'product Name',
-      image: 'https://www.edmundwalusimbi.com/react/images/gallery/pt/ccc2019team.jpg',
-      price: 2500000,
-      details: 'The team at the Careers Catalog Conference 2019.'
-    },
-    {
-      id: 'pc1-3',
-      name: 'product Name',
-      image: 'https://www.edmundwalusimbi.com/react/images/gallery/pt/EdmundatHeadCome2017.jpg',
-      price: 2500000,
-      details: 'Edmund speaks at the HeadCome workshop 2017.'
-    }
-  ]
-  }/*, {
-  keyvalue: "pc2",
-  catname: 'Mobile Phones',
-  contents: [
-    {
-      id: 'pc2-1',
-      name: 'product Name',
-      image: 'https://www.edmundwalusimbi.com/react/images/gallery/ms/teamleader2.jpg',
-      price: 2500000,
-      details: 'The TMC 2019 Alumni Committee.'
-    },
-    {
-      id: 'pc2-2',
-      name: 'product Name',
-      image: 'https://www.edmundwalusimbi.com/react/images/gallery/ms/handshake.jpg',
-      price: 2500000,
-      details: 'Edmund receives a certificate at the TMC 2017 Graduation event.'
-    },
-    {
-      id: 'pc2-3',
-      name: 'product Name',
-      image: 'https://www.edmundwalusimbi.com/react/images/gallery/ms/katikirotalk.jpeg',
-      price: 2500000,
-      details: 'A dialogue with the Prime Minister of the Buganda Kingdom.'
-    }
-  ]
-  }*/]
+    keyvalue: "pc1",
+    catname: 'Laptop Computers',
+    contents: [
+      {
+        id: 'pc1-1',
+        name: 'Hp Probook 455 G7',
+        image: './assets/images/products/featured.png',
+        price: 2500000,
+        details: '8GB RAM 1TB ROM Ryzen 5 prcessor.'
+      },
+      {
+        id: 'pc1-2',
+        name: 'Gamer Computers',
+        image: './assets/images/products/gamer.png',
+        price: 4500000,
+        details: 'PRO Gtx Video Editing Office 365 Included AMD 256GB SSD.'
+      },
+      {
+        id: 'pc1-3',
+        name: 'Lenovo ThinkPad T490s',
+        image: './assets/images/products/lenovo.png',
+        price: 2000000,
+        details: 'Touchscreen Laptop Intel Core i7 8GB RAM 512GB SSD.'
+      }
+    ]
+    }]
 
 let newItem = document.querySelector('.add-to-cart-btn');
 let shoppingList =document.querySelector('#item-list');
