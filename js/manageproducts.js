@@ -28,33 +28,7 @@ window.addEventListener("load", () => {
         details: 'Touchscreen Laptop Intel Core i7 8GB RAM 512GB SSD.'
       }
     ]
-    }/*, {
-    keyvalue: "pc2",
-    catname: 'Mobile Phones',
-    contents: [
-      {
-        id: 'pc2-1',
-        name: 'product Name',
-        image: 'https://www.edmundwalusimbi.com/react/images/gallery/ms/teamleader2.jpg',
-        price: 2500000,
-        details: 'The TMC 2019 Alumni Committee.'
-      },
-      {
-        id: 'pc2-2',
-        name: 'product Name',
-        image: 'https://www.edmundwalusimbi.com/react/images/gallery/ms/handshake.jpg',
-        price: 2500000,
-        details: 'Edmund receives a certificate at the TMC 2017 Graduation event.'
-      },
-      {
-        id: 'pc2-3',
-        name: 'product Name',
-        image: 'https://www.edmundwalusimbi.com/react/images/gallery/ms/katikirotalk.jpeg',
-        price: 2500000,
-        details: 'A dialogue with the Prime Minister of the Buganda Kingdom.'
-      }
-    ]
-    }*/]
+    }]
     let displayProducts = document.querySelector('#daily-products');
 
     // const Product = JSON.parse(Products);
