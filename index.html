@@ -8,10 +8,112 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
-        <title>KCF-Online Shopping.</title>
+        <title>KCF-Online Shopping</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/products.css">
     </head>
     <body>
-        
+        <header class="header">
+            <a href="#" class="logo">Laptop Hub</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <img class="menu-drop-down" src="assets/images/userimage.png" height="40px" >
+            </ul>
+        </header>
+
+        <div class="main-body">
+            <div class="product-area">
+
+                <!-- Start of featured product. -->
+                <div class="featured">
+                    <div class="heading">Featured Products.</div>
+                    <div class="featured-product">
+                        <div class="product">
+                            <img class="featured-image" src="assets/images/products/featured.png" height="300px">
+                        </div>
+                        <div class="product-details">
+                            <div class="product-name">Hp Probook 455 G7</div>
+                            <div class="product-specs">
+                                <ul class="specs">
+                                    <li>8GB RAM</li>
+                                    <li>1TB ROM</li>
+                                    <li>Ryzen 5 prcessor</li>
+                                </ul>
+                            </div>
+                            <div class="product-price">
+                                <div class="old-price">
+                                    Get it at: <span>Ugx. 3,000,000/=</span>
+                                </div>
+                                <div class="new-price">
+                                    Ugx. 2,500,000/=
+                                </div>
+                            </div>
+                            <div class="add-to-cart-btn">
+                                <!-- <i class="fa fa-cart-plus fa-xl" aria-hidden="true"></i>Add to Cart -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of featured product. -->
+
+                <!-- Start of other products. -->
+                <section id="daily-products" class="daily-products">
+                    <div class="heading">Other Products.</div>
+                    <!-- This is where the product categories and the products appear. -->
+                </section>
+                <!-- End of other products. -->
+
+            </div>
+
+            <!-- Start of shopping cart. -->
+            <div class="shopping-cart">
+                <div class="small-title">Shopping Cart.</div>
+                <div id="item-list">
+                    <!-- <div class="cart-status">Your shopping cart is empty.</div> -->
+                    <!-- <div id="chosen-item" class="chosen-item">
+                        <hr/>
+                        <div class="cart-item">
+                            <div class="item-image">
+                                <img src="assets/images/products/featured.jpg" alt="Product image." width="70px">
+                            </div>
+                            <div class="item-details">
+                                <div class="name">Hp Probook 455 G7</div>
+                                <div class="price">Ugx. 2,500,000/=</div>
+                                <div class="qty">Qty: <input class="c-qty" type="number" min="0"/></div>
+                            </div>
+                            <div class="edit-item">
+                                <i class="fa fa-trash taskicon" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div>
+                        <!-- <div class="select-status">Total: Ugx. 2,500,000/=</div>
+                        <div class="puchase-confirmation"><p>Confirm Purchase</p></div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- End of shopping cart. -->
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <!--add all information -->
+                <h3>KCF-Online</h3>
+                <p>Contact us on;</p>
+                <div class="contactlinks">
+                    <a target="_blank" href="#"><i class="footercontacts fa-brands fa-facebook fa-xl"></i></a>
+                    <a target="_blank" href="#"><i class="footercontacts fa-brands fa-instagram fa-xl"></i></a>
+                    <a target="_blank" href="#"><i class="footercontacts fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a target="_blank" href="#"><i class="footercontacts fa-brands fa-twitter fa-xl"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/manageproducts.js" defer></script>
+        <script src="./js/shopping.js" defer></script>
+        <!-- <script src="./assets/products/products.js"></script> -->
     </body>
 </html>

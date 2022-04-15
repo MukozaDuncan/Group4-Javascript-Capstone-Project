@@ -1,0 +1,22 @@
+<section id="daily-products" class="daily-products">
+                    <div class="heading">Other Products.</div>
+                    
+                    <div class="category">
+                        <div class="cat-heading">Laptop Computers.</div>
+                        <div id="product-row" class="product-row">
+                            <div class="product-item">
+                                <div class="image">
+                                    <img src="assets/images/products/featured.jpg" alt="Product image." width="30px">
+                                </div>
+                                <hr/>
+                                <div class="product-item-details">
+                                    <div class="product-name">Hp Probook 455 G7</div>
+                                    <div class="product-price">Ugx. 3,000,000/=</div>
+                                    <div class="add-to-cart-btn">
+                                        <p>Add to Cart</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
