@@ -10,25 +10,27 @@ window.addEventListener("load", () => {
         id: 'pc1-1',
         name: 'Hp Probook 455 G7',
         image: './assets/images/products/featured.png',
-        price: 2500000,
-        details: '8GB RAM 1TB ROM Ryzen 5 prcessor.'
+        price: 3000000,
+        details: '<ul class="specs"><li>8GB RAM</li> <li>1TB ROM</li> <li>Ryzen 5 prcessor</li></ul>'
       },
       {
         id: 'pc1-2',
         name: 'Gamer Computers',
         image: './assets/images/products/gamer.png',
-        price: 4500000,
-        details: 'PRO Gtx Video Editing Office 365 Included AMD 256GB SSD.'
+        price: 5000000,
+        details: '<ul class="specs"><li>PRO Gtx Video Editing</li> <li>Office 365</li> <li>Included AMD</li> <li>256GB SSD</li></ul>'
       },
       {
         id: 'pc1-3',
         name: 'Lenovo ThinkPad T490s',
         image: './assets/images/products/lenovo.png',
-        price: 2000000,
-        details: 'Touchscreen Laptop Intel Core i7 8GB RAM 512GB SSD.'
+        price: 3000000,
+        details: '<ul class="specs"><li>Touchscreen Laptop</li> <li>Intel Core i7</li> <li>8GB RAM</li> <li>512GB SSD</li></ul>'
       }
     ]
-    }]
+  }]
+
+  // Start of other Products.
     let displayProducts = document.querySelector('#daily-products');
 
     // const Product = JSON.parse(Products);

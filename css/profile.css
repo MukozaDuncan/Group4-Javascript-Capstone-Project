@@ -1,0 +1,62 @@
+.user-image {
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 3px;
+    background-color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.userspicture {
+    width: 150px;
+    margin-top: 25px;
+}
+
+.user-details {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+}
+
+.userdetail {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.edit-password {
+    border: 2px solid #000000;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 400px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.change-password {
+    margin-top: 5px;
+    font-weight: bold;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(61, 61, 61);
+    color: #ffffff;
+}
+
+.change-password:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(61, 61, 61);
+    border: 2px solid rgb(61, 61, 61);
+}
+
+.userdetail span {
+    color: #100cf4;
+    margin-left: 10px;
+}
+
+#change-password-error {
+    color: #e40606;
+}
