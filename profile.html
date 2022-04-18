@@ -11,6 +11,7 @@
         <title>Laptop Hub</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/profile.css">
     </head>
     <body>
         <header class="header">
@@ -24,8 +25,8 @@
                     <span class="menu-drop-down"><img class="dropdown-image" src="assets/images/userimage.png" height="35px" ><i class="fa fa-caret-down"></i></span>
                     <div class="dropdown-content" style="float:right;">
                         <a id="activeuser"></a>
-                        <a href="profile.html">View Profile</a>
-                        <a id="logoutbtn">Logout</a>
+                        <a href="#">View Profile</a>
+                        <a id="logoutbtn" href="#">Logout</a>
                     </div>
                 </div>
             </ul>
@@ -36,8 +37,35 @@
 
                 <!-- Start of other products. -->
                 <section id="daily-products" class="daily-products">
-                    <div class="heading">Our Products.</div>
+                    <div class="heading">My Account.</div>
                     <!-- This is where the product categories and the products appear. -->
+                    <div class="user-image">
+                        <img class="userspicture" src="assets/images/userimagenobg.png" alt="users image">
+                    </div>
+                    <div class="category">
+                        <div class="cat-heading">Personal details.</div>
+                        <div class="user-details">
+                            <div class="userdetail">
+                                Name: <span id="username"><!-- The user`s names go here. --></span>
+                            </div>
+                            <div class="userdetail">
+                                Email Address: <span id="useremail"><!-- The user`s email address go here. --></span>
+                            </div>
+                            <div class="userdetail">
+                                Phone Contact: <span id="userphone"><!-- The user`s telephone contact go here. --></span>
+                            </div>
+                            <div class="userdetail">
+                                Location: <span id="userslocation"><!-- The user`s location go here. --></span>
+                            </div>
+                            <div class="userdetail">
+                                To change your password, use the form below:<br/>
+                                <input id="current-password" class="edit-password" type="password" placeholder="Confirm your current password here."><br/>
+                                <input id="new-password" class="edit-password" type="password" placeholder="Enter your new password here."><br/>
+                                <span id="change-password-error"><!-- The password change error goes here. --></span>
+                            </div>
+                            <button id="change-password" class="change-password">CHANGE PASSWORD</button>
+                        </div>
+                    </div>
                 </section>
                 <!-- End of other products. -->
 
@@ -69,7 +97,7 @@
         </footer>
     
         <script src="./js/manageSession.js" defer></script>
-        <script src="./js/manageproducts.js" defer></script>
+        <script src="./js/profileInfo.js" defer></script>
         <script src="./js/shopping.js" defer></script>
         <script src="./js/logout.js"></script>
     </body>

@@ -22,23 +22,30 @@
 	</div>
 	
 		<div class="right">
-		<h5>Login</h5>
-		<p>Don't have an account? <a href="signup.html">Create Your Account</a> it takes less than a minute</p>
+		<h5>Signup</h5>
+		<p>Please fill in the form below to create your account.</p>
 		<div class="inputs">
-			<input id="useremail" class="useremail" type="text" placeholder="Email Address">
+			<input id="fname" class="fname" type="text" placeholder="First name">
+            <span id="fname-error" class="input-error"></span>
+            <input id="surname" class="surname" type="text" placeholder="Surname">
+            <span id="surname-error" class="input-error"></span>
+            <input id="useremail" class="useremail" type="text" placeholder="Email Address">
             <span id="useremail-error" class="input-error"></span>
-			<br>
+			<!-- <br> -->
 			<input id="userpassword" class="userpassword" type="password" placeholder="Password">
             <span id="userpassword-error" class="input-error"></span>
+            <input id="usercontact" class="usercontact" type="text" placeholder="Telephone Contact">
+            <span id="usercontact-error" class="input-error"></span>
+            <input id="userlocation" class="userlocation" type="text" placeholder="Location">
+            <span id="userlocation-error" class="input-error"></span>
 		</div>
 			<br><br>
-			<br>
-			<button id="loginbutton">Login</button>
+			<button id="signupbutton">Signup</button>
 	</div>
 	
 </div>
 <!-- partial -->
   
-    <script src="./js/login.js" defer></script>   
+    <script src="./js/signup.js" defer></script>   
 </body>
 </html>
