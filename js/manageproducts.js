@@ -28,13 +28,9 @@ window.addEventListener("load", () => {
         details: '<ul class="specs"><li>Touchscreen Laptop</li> <li>Intel Core i7</li> <li>8GB RAM</li> <li>512GB SSD</li></ul>'
       }
     ]
-<<<<<<< HEAD
-    }]
-=======
   }]
 
   // Start of other Products.
->>>>>>> origin/develop
     let displayProducts = document.querySelector('#daily-products');
 
     // const Product = JSON.parse(Products);
